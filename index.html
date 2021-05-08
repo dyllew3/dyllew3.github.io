@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<!DOCTYPE html>
+<html>
+  <head>
+  <link rel="shortcut icon" type="image/jpg" href="/favicon.ico">
+
+    <meta charset="utf-8">
+    <title>Patch website</title>
+  </head>
+  <body>
+    <ul>
+  {% for post in site.posts %}
+    <li>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      {{ post.excerpt }}
+    </li>
+  {% endfor %}
+</ul>
+  </body>
+</html>

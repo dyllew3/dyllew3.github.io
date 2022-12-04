@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Patch
-email: lewisdy@tcd.ie
+email: blah@tcd.ie
 description: >- # this means to ignore newlines until "baseurl:"
   Blog about the random tech things I do or come across.
   My primary experience is with the dotnet environment but I like to play
